@@ -14,7 +14,7 @@ const robots = [
 var sortedRobots = robots.map(
   (robot) => {
     if (knownDecepticons.includes(robot.name)) {
-      robot.alliance = "decepticon"
+      return robot.alliance = "decepticon"
     } else {
       robot.alliance = "autobot"
     }
