@@ -17,7 +17,7 @@ var sortedRobots = robots.map(
       if (knownDecepticons.includes(robot.name)) {
         alliance: 'decepticon'
       } else {
-
+        alliance: 'autobot'
       }
     })
   }
