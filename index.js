@@ -15,11 +15,7 @@ var sortedRobots = robots.map(
   (robot) => {
     const isDecepticon = knownDecepticons.includes(robot.name);
     return Object.assign({}, robot, {
-      if (isDecepticon) {
-        alliance: 'decepticon'
-      } else if {
-        alliance: 'autobot'
-      }
+      alliance: isDecepticon ? "decepticon" : "autobot"
     })
   }
 )
