@@ -14,7 +14,11 @@ const robots = [
 var sortedRobots = robots.map(
   (robot) => {
     return Object.assign({}, robot, {
-      if knownDecepticons.includes(robot.name)
+      if knownDecepticons.includes(robot.name) {
+
+      } else {
+        
+      }
     })
   }
 )
