@@ -15,6 +15,8 @@ var sortedRobots = robots.map(
   robot => {
     if (knownDecepticons.includes(robot.name)) {
       robot.alliance = "decepticon"
+    } else {
+      robot.alliance = "autobot"
     }
   }
 )
